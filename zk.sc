@@ -1,8 +1,9 @@
 #!/usr/bin/env amm
-import $ivy.`com.twitter:util-zk_2.12:6.43.0`
-@
+
 import ammonite.ops._
 import ammonite.ops.ImplicitWd._
+
+import $file.util
 
 import com.twitter.conversions.time._
 import com.twitter.zk._

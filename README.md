@@ -33,5 +33,3 @@ You will need to `chmod +x zk.sc`
 getting the value: `./zk.sc get /marathon/state/framework-id/b/id`
 
 setting the frameworkID:  `./zk.sc setId /marathon/state/framework-id/b/id d8bcce4a-3570-4f65-8c19-35a793e5337e-0001`
-
-**note**: the first run compiles and may not invoke an action.
