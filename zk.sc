@@ -21,7 +21,7 @@ def set(path: String, value: String=""): Unit = {
 @main
 def setId(path: String, id: String=""): Unit = {
   // // data for framework ID is protobuf which has some delimiters
-  val head: Array[Byte] = Array(0x0a, '(')
+  val head: Array[Byte] = Array(0x0a, ')')
   setDataValue(path, head ++ id.getBytes())
   get(path)
 }
